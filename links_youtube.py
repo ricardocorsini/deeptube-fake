@@ -99,12 +99,12 @@ class LinksYT:
 
 #Exemplo
 
-search = LinksYT('engluizfernando.com')
+search = LinksYT('smartfit.com.br')
 
 print(search.id_client)
 print(search.creations_list)
+print(search.build_client_url())
 
-print(search.youtube_search('CR06025348081266982913'))
     
 
    
