@@ -2,6 +2,18 @@
 
 Este documento descreve o funcionamento dos scripts `links_youtube.py` e `youtube_info.py`. Eles têm como objetivo capturar informações detalhadas de anúncios do youtube, obtidos através da biblioteca de transparência de anúncios do Google.
 
+## Bibliotecas Requeridas
+
+- `requests-html`: Biblioteca para fazer requisições HTTP e renderizar páginas web.
+- `pytube`: Biblioteca para baixar vídeos do YouTube e obter informações detalhadas.
+- `youtube-transcript-api`: Biblioteca para obter a transcrição de vídeos do YouTube, se disponível.
+
+Use os comandos abaixo para instalar as bibliotecas necessárias:
+
+```bash
+pip install pytube youtube-transcript-api requests-html
+```
+
 ## links_youtube.py
 
 ### Descrição
